@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Homepage</title>
+        <link rel="stylesheet" href="./styles.css" />
+        <script src="./script.js" defer></script>
+    </head>
+    <body>
+        <header>
+            <img
+                src="./public/alarado-icon-homepage.svg"
+                alt="logo"
+                class="logo"
+            />
+            <nav>
+                <a class="text nav-text selected">About us</a>
+                <a class="text nav-text">Product</a>
+                <a class="text nav-text">Ressource</a>
+                <a class="text nav-text">Contact</a>
+            </nav>
+            <label class="switch">
+                <input type="checkbox" id="toggle" checked />
+                <span class="slider round"></span>
+            </label>
+        </header>
+        <main>
+            <div class="column text-column">
+                <span class="text slogan">😎 Simple way to communicate</span>
+                <h1 class="text title">Actions for Accessibility in Design</h1>
+                <p class="text description">
+                    The fastest way to build and deploy websites with resusable
+                    components.
+                </p>
+                <div class="button-group">
+                    <button class="text button main-button">Get started</button>
+                    <a class="text button second-button">Get live demo</a>
+                </div>
+                <div class="info-group">
+                    <div class="info">
+                        <img
+                            src="./public/Done_ring_round_fill.svg"
+                            alt="icon"
+                            class="icon"
+                        />
+                        <label class="text label"
+                            >No credit card required</label
+                        >
+                    </div>
+                    <div class="info">
+                        <img
+                            src="./public/Done_ring_round_fill.svg"
+                            alt="icon"
+                            class="icon"
+                        />
+                        <label class="text label">No software to install</label>
+                    </div>
+                </div>
+            </div>
+            <div class="column image-column">
+                <img
+                    src="./public/hero-image-simple-homepage.png"
+                    alt="image"
+                    class="main-image"
+                />
+            </div>
+        </main>
+    </body>
+</html>
